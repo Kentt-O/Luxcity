@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global font-family settings */
+body {
+  @apply font-sans bg-gray-100 text-gray-900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Code font settings */
+code {
+  @apply font-mono text-sm;
+}

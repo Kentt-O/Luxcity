@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-600 
+         text-white font-sans min-h-screen w-full h-full;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  @apply text-center flex flex-col items-center justify-center min-h-screen;
+}
+
+.App-logo {
+  @apply h-[40vmin] pointer-events-none animate-spin;
+}
+
+.App-header {
+  @apply flex flex-col items-center justify-center min-h-screen text-xl bg-gray-900 bg-opacity-75;
+}
+
+.App-link {
+  @apply text-blue-300 hover:text-blue-500 transition-colors;
+}
