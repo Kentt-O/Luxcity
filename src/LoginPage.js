@@ -8,7 +8,7 @@ const LoginPage = () => {
 
   // Power Apps URL
   const powerAppsUrl =
-    'https://apps.powerapps.com/play/e/f7c4f569-a259-e587-ac1e-ac8fb6878441/a/6adf4488-d472-4661-9d3d-5f44ac006b49?tenantId=4b7781c7-419e-4c9f-ad63-d0c39645491e';
+    'https://apps.powerapps.com/play/e/f7c4f569-a259-e587-ac1e-ac8fb6878441/a/6adf4488-d472-4661-9d3d-5f44ac006b49?tenantId=4b7781c7-419e-4c9f-ad63-d0c39645491e&sourcetime=1738729913318';
 
   useEffect(() => {
     const session = localStorage.getItem('isLoggedIn');
